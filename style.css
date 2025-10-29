@@ -1,0 +1,24 @@
+* {
+    font-family: Ellipsis, Cyrillic, "ＭＳ Pゴシック", "MS PGothic", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(52, 48, 58);
+	color: white;
+}
+
+main {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(125, 166, 255);
+}
