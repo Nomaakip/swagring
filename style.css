@@ -6,19 +6,66 @@
 body {
     background: rgb(52, 48, 58);
 	color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 main {
     display: block;
     margin: auto;
     text-align: center;
+    width: 50%;
 }
 
-span {
+span, p {
     display: block;
     font-size: 18px;
 }
 
 a {
-    color: rgb(125, 166, 255);
+    color: rgb(119, 205, 255);
 }
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.member a {
+    font-size: 18px;
+}
+
+.joining, .about, .add {
+    display: block;
+    text-align: left;
+}
+
+code {
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.snippet {
+    font-size: 15px;
+}
+
+textarea {
+    background: #333;
+    color: white;
+    width: 100%;
+    resize: vertical;
+}
+@media screen and (max-width: 1024px) {
+    main {
+        width: 90%;
+    }
+}
+

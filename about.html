@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>about</title>
+</head>
+<body>
+    <main>
+        <img src="img/swagring.png" alt="swagring">
+        <h1>about swagring</h1>
+        <div class="about">
+            <h1>about</h1>
+            <p>swagring is a webring for cool sites!</p>
+            <p>it was created in 2025 and is managed by <a href="https://nomaakip.xyz">nomaakip</a>!</p>
+        </div>
+        <div style="width: 100%; height: 1px; background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%);"></div>
+        <div class="joining">
+            <h2>joining</h2>
+            <h2>requirements</h2>
+            <span>your website must:</span>
+            <ul>
+                <li>be free of nsfw, racist, sexist, homophobic/transphobic and ableist content</li>
+                <li>be hand-coded (no google sites, straw.page, carrd or wix)</li>
+                <li>have some sort of content (even a simple "under construction page" is fine!)</li>
+            </ul>
+            <p>if your website fits those requirements, submit a pull request <a href="https://github.com/nomaakip/swagring">here</a>! simply add a new json entry at the bottom of <code>sites.json</code>:</p>
+            <code class="snippet">{ "name": "&lt;name&gt;", "about": "&lt;about&gt;" "url": "&lt;url&gt;" }</code>
+            <p>you can also dm me on discord (@hacks.guide) and ask to get added to the webring!</p>
+            <div style="width: 100%; height: 1px; background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%); margin-top: 15px;"></div>
+        </div>
+        <div class="add">
+            <h1>adding an embed to your site</h1>
+            <h2>premade embeds</h2>
+            <p>your website MUST have a widget somewhere visible on it. not adding an embed will result in the removal of your site.</p>
+            <p>to add a embed, simple copy and paste this code, and replace "your_name" by your website's name.</p>
+            <textarea readonly rows="5">&lt;a href="https://webring.nomaakip.xyz/webring?name=your_name&to=prev"&gt;&lt;img src="https://webring.nomaakip.xyz/img/webring-left.png"&gt;&lt;/a&gt;&lt;a href="https://webring.nomaakip.xyz"&gt;&lt;img src="https://webring.nomaakip.xyz/img/webring.png"&gt;&lt;/a&gt;&lt;a href="https://webring.nomaakip.xyz/webring?name=your_name&to=next"&gt;&lt;img src="https://webring.nomaakip.xyz/img/webring-right.png"&gt;&lt;/a&gt;
+            </textarea>
+            <p>you can also use bbcode:</p>
+            <textarea readonly rows="5">[url=https://webring.nomaakip.xyz/webring?name=your_name&to=prev][img]https://webring.nomaakip.xyz/img/webring-left.png[/img][/url][url=https://webring.nomaakip.xyz/][img]https://webring.nomaakip.xyz/img/webring.png[/img][/url][url=https://webring.nomaakip.xyz/webring?name=your_name&to=next][img]https://webring.nomaakip.xyz/img/webring-right.png[/img][/url]
+            </textarea>
+            <p>(yes the images are small ill make other ones later!!!)</p>
+            <p>preview:</p>
+            <a href="https://webring.nomaakip.xyz/webring?name=your_name&to=prev"><img src="https://webring.nomaakip.xyz/img/webring-left.png"></a><a href="https://webring.nomaakip.xyz"><img src="https://webring.nomaakip.xyz/img/webring.png"></a><a href="https://webring.nomaakip.xyz/webring?name=your_name&to=next"><img src="https://webring.nomaakip.xyz/img/webring-right.png"></a>
+            <p>alternatively, you can use an iframe:</p>
+            <textarea>&lt;iframe src="embed.html" style="height: 3rem; width: 100%; border: 1px solid white; padding: 10px;" frameborder="0"&gt;&lt;/iframe&gt;</textarea>
+            <p>preview:</p>
+            <iframe src="https://webring.nomaakip.xyz/embed" style="height: 3rem; width: 100%; border: 1px solid white; padding: 10px;" frameborder="0"></iframe>
+            <h2>custom embeds</h2>
+            <p>links to use to make your own custom embed:</p>
+            <ul>
+                <li>previous page: https://webring.nomaakip.xyz/webring?name=your_name&to=prev</li>
+                <li>next page: https://webring.nomaakip.xyz/webring?name=your_name&to=next</li>
+                <li>site page: https://webring.nomaakip.xyz/</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
