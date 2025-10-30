@@ -13,11 +13,6 @@ body {
     justify-content: space-between;
 }
 
-main {
-    display: flex;
-    gap: 20px;
-}
-
 span {
     font-size: 18px;
 }
