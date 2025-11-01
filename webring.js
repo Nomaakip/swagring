@@ -22,9 +22,9 @@ function redirect() {
 
     let newSiteIndex;
     if (direction == "prev") {
-        newSiteIndex = (currentSiteIndex + 1) % sites.length;
-    } else if (direction == "next") {
         newSiteIndex = (currentSiteIndex - 1 + sites.length) % sites.length;
+    } else if (direction == "next") {
+        newSiteIndex = (currentSiteIndex + 1) % sites.length;
     }
 
     if (currentSiteIndex !== -1 && newSiteIndex !== -1) {
